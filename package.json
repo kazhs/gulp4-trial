@@ -1,0 +1,26 @@
+{
+  "name": "gulp4-trial",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "kz",
+  "license": "MIT",
+  "scripts": {
+    "start": "gulp",
+    "gulp": "gulp"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0-rc.2",
+    "@babel/preset-env": "^7.0.0-rc.2",
+    "@babel/register": "^7.0.0-rc.2",
+    "del": "^3.0.0",
+    "gulp": "^4.0.0",
+    "gulp-pug": "^4.0.1",
+    "gulp-stylus": "^2.7.0",
+    "gulp-webserver": "^0.9.1"
+  }
+}
